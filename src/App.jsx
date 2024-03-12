@@ -49,7 +49,7 @@ function App() {
               </Typography>
             ))}
           </Stack>
-          <form onSubmit={handleChange}>
+          <form className="outlined-basic2" onSubmit={handleChange}>
             <TextField
               id="outlined-basic"
               variant="outlined"
